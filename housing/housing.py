@@ -16,8 +16,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #train and test datasets
-train_data = pd.read_csv(r'D:\Safwan USB\DS and ML\datasets\housing\train.csv')
-test_data = pd.read_csv(r'D:\Safwan USB\DS and ML\datasets\housing/test.csv')
+train_data = pd.read_csv(r'~\datasets\housing\train.csv')
+test_data = pd.read_csv(r'~\datasets\housing/test.csv')
 
 #Droping the columns that have more than 50% of its values as NaN from the training set 
 train_data = train_data.drop('Alley', axis=1)
